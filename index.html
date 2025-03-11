@@ -1,0 +1,168 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>     
+    <meta charset="UTF-8">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>Vilvah Store - Home</title>     
+    <link rel="stylesheet" href="css/style.css">     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Styles for the new section */
+        .about-section {
+            display: flex;
+            padding: 40px 5%;
+            margin: 20px 0;
+            align-items: center;
+        }
+        
+        .about-content {
+            flex: 1;
+            padding-right: 20px;
+        }
+        
+        .about-image {
+            flex: 1;
+        }
+        
+        .about-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        
+        .about-content h2 {
+            margin-bottom: 15px;
+        }
+        
+        /* Responsive adjustment */
+        @media (max-width: 768px) {
+            .about-section {
+                flex-direction: column;
+            }
+            
+            .about-content {
+                padding-right: 0;
+                padding-bottom: 20px;
+            }
+        }
+    </style>
+</head> 
+<body>     
+    <header>         
+        <div class="header-container">             
+            <div class="logo">                 
+                <a href="index.html">                     
+                    <img src="images/logo.png" alt="Vilvah Store Logo">                 
+                </a>             
+            </div>             
+            <nav>                 
+                <a href="products.html">Shop</a>                 
+                <a href="cart.html">Cart</a>                 
+                <div id="user-section">                     
+                    <a href="login.html" id="login-link">Login</a>                 
+                </div>             
+            </nav>         
+        </div>     
+    </header>          
+    
+    <!-- Hero Section -->     
+    <section class="hero-section">         
+        <div class="hero-image">             
+            <img src="images/skin.webp" alt="Vilvah Product Collection">         
+        </div>         
+        <div class="hero-content">             
+            <h1>Natural Products</h1>             
+            <p>Discover our range of organic, eco-friendly products made with love and care.</p>             
+            <a href="products.html" class="btn">Shop Now</a>         
+        </div>     
+    </section>      
+
+    
+    <!-- Features Section -->     
+    <section class="features">         
+        <div class="feature">             
+            <img src="images/offer1.webp" alt="Offer 1">             
+            <div class="feature-text">Special Discounts on Skincare </div>         
+        </div>         
+        <div class="feature">             
+            <img src="images/offer2.webp" alt="Offer 2">             
+            <div class="feature-text">100% Organic Ingredients</div>         
+        </div>         
+        <div class="feature">             
+            <img src="images/offer6.webp" alt="Offer 3">             
+            <div class="feature-text">Fast Delivery Available</div>         
+        </div>     
+    </section>
+    <section class="product-categories">
+        <div class="category">
+            <img src="images/circ1.webp" alt="New Launch">
+            <p>Deo Shot</p>
+        </div>
+        <div class="category">
+            <img src="images/circ2.webp" alt="Shampoos">
+            <p>Shampoos</p>
+        </div>
+        <div class="category">
+            <img src="images/circ3.webp" alt="Serums">
+            <p>Serums</p>
+        </div>
+        <div class="category">
+            <img src="images/circ4.webp" alt="Anti-Acne Range">
+            <p>Anti-Acne Range</p>
+        </div>
+        <div class="category">
+            <img src="images/circ5.webp" alt="Face Masks">
+            <p>Face Masks</p>
+        </div>
+        <div class="category">
+            <img src="images/circ6.webp" alt="Moisturisers">
+            <p>Moisturisers</p>
+        </div>
+        <div class="category">
+            <img src="images/circ7.webp" alt="Moisturisers">
+            <p>Body Wash</p>
+        </div>
+      
+    </section>
+    
+    
+    <!-- New Section: Image on right, text on left -->
+    <section class="about-section">
+        <div class="about-content">
+            <h2>Why Choose Vilvah?</h2>
+            <p class="highlight-text">
+                Our products crafted with care using only the finest natural ingredients. We believe in 
+                sustainable practices that good for your skin and planet.We are a progressive skincare brand that believes in Sustainability, Safe and Natural ingredients.
+            </p>
+            
+            
+        </div>
+        <div class="about-image">
+            <img src="images/offer4.webp" alt="Natural Skincare">
+        </div>
+    </section>
+      
+    <!-- Footer Section -->     
+    <footer>         
+        <div class="footer-container">             
+            <div class="footer-section">                 
+                <h3>About Us</h3>                 
+                <p>We provide the best natural and organic skincare products with eco-friendly ingredients.</p>             
+            </div>             
+            <div class="footer-section">                 
+                <h3>Quick Links</h3>                 
+                <ul>                     
+                    <li><a href="index.html">Home</a></li>                     
+                    <li><a href="products.html">Shop</a></li>                     
+                    <li><a href="cart.html">Cart</a></li>                                 
+                </ul>             
+            </div>                         
+        </div>         
+        <div class="footer-bottom">             
+            <p>&copy; 2025 Vilvah Store. All rights reserved.</p>         
+        </div>     
+    </footer>      
+    
+    <script src="js/auth.js" type="module" defer></script> 
+</body> 
+</html>
